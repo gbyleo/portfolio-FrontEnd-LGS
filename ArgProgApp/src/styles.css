@@ -1,1 +1,220 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(52, 218, 218);
+}
+
+div {
+    background-color:  rgb(52, 218, 218);;
+}
+
+
+header{
+    display: flex;
+    background-color:  rgb(52, 218, 218);;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  }
+
+
+
+#logoAP{
+height: 75px;
+}
+
+
+nav{
+    background-color:   rgb(52, 218, 218);;
+    display: flex;
+    align-items: center;
+}
+
+
+#cbt{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: right;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+.IconoTitulos{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: right;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+#fotoperfil_div{
+    display:flex;
+    align-items:flex-end;
+
+    justify-content:start;
+}
+
+
+.social img{
+display: flex;
+background-color:   rgb(52, 218, 218);;
+height: 50px;
+}
+
+.social{
+    background-color:  rgb(52, 218, 218);;
+}
+
+
+#div_social{
+    background-color:  rgb(52, 218, 218);;
+}
+
+#id_nyp{
+text-align:center;
+}
+
+.row {
+    padding: 20px;
+    background-color: rgb(52, 218, 218);
+}
+
+
+
+
+
+#banner{
+    height: 200px;
+    width: 100%;
+    border-style:ridge;
+    border-radius: 20px;
+    
+}
+
+#div_banner{
+    width: 100%;
+}
+
+#div_btnlogin{
+    margin-left: 10px;
+   
+}
+
+
+#nombre{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 0px;
+
+}
+#puesto{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 0px;
+    }
+
+
+.mat-card {
+    border-radius: 50px;
+    border-width: 5px;
+    padding: 20px;
+    background-color: rgb(52, 218, 218);
+    border-color: rgb(20, 164, 174);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 40px;
+    
+}
+
+#first-card {
+    border-radius: 32px;
+    padding: 10px;
+    background-color: rgb(52, 218, 218);
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/*estilo de la foto de perfil*/
+
+/*para cuando es minimanete 576 px*/
+
+
+@media (min-width: 576px) {
+#fotoperfil{
+   
+    width: 35%;
+    border-radius: 100%;
+    left: 2%;
+    margin-top: -120px;
+    
+}
+}
+
+@media (max-width: 575px) {
+    #fotoperfil {
+      
+        width: 35%;
+        border-radius: 100%;
+        left: 2%;
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 360px) {
+    #fotoperfil {
+        
+        width: 35%;
+        border-radius: 100%;
+        left: 2%;
+        margin-top: -100px;
+    }
+}
+
+
+/*-************************************/
+
+/*margen ul/li para viñeta de listas en experiencia laboral educacion skils etc*/
+
+#adm_parr{
+   
+   
+    text-align: justify;
+   
+}
+
+h1{
+    text-align: left;
+}
+
+li{
+    list-style-type:square;
+}
+ul li h2{
+    margin-left: -20px;
+    text-align: left;
+    
+   
+}
+
+ul li h3{
+    margin-left: -20px;
+    text-align: left;
+   
+}
+
+#fotocine{
+    width: 80%;
+}
