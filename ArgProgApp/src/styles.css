@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+"./src/styles.css",
+"ArgProgApp/src/styles.css",
+"C:/Users/LS892/Documents/GitHub/portfolio-FrontEnd-LGS/ArgProgApp/src/styles.css",
+"node_modules/bootstrap/dist/css/bootstrap.css"
+<link rel="stylesheet" href="./css/estilo1.css">
+*/
 body{
     background-color: rgb(52, 218, 218);
 }
