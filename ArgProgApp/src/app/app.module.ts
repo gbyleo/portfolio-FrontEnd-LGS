@@ -9,6 +9,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { HttpClientModule} from   '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     ProyectosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
+     
   ],
   providers: [],
   bootstrap: [AppComponent]
