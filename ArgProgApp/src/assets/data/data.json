@@ -1,7 +1,125 @@
 {
+    "backImage": "./images/Logos proyecto/banner4.jpg/",
+    "image": "./images/foto_cv",
     "name": "JSon Leonardo German Seivetti",
-    "backImage": "./images/Logos proyecto/banner4.jpg/",  
-    "image": "./images/foto_cv",                                 
-    "position": "JSon Full Stack Developer Jr"
+    "position": "JSon Full Stack Developer Jr",
+    "Experiencia": [
+        {
+            "empresa": "Gobbbi Novag",
+            "puesto": "Soporte Tecnico",
+            "fecha-comienzo": "Junio 2022",
+            "fecha-fin": "Actualidad",
+            "descripcion": "Seguimiento y resolicion de tickets. -Instalación, configuracion y mantenimiento de Hardware y Software. -Administracion de usuarios Active Directory. -Soporte remoto y presencial a usuarios con Sistemas Windows."
+        },
+        {
+            "empresa": "Klonal Laboratorios",
+            "puesto": "Funcional SAP y Soporte Tecnico",
+            "fecha-comienzo": "Julio 2015",
+            "fecha-fin": "Octubre 2021",
+            "descripcion": "Instalación y Mantenimiento de Hardware y Software. Soporte remoto y presencial a usuarios con Sistemas Windows y Linux (Ubuntu) - Carga y mantenimiento de información sobre sistema SAP en -maestro de materiales. Modulo MM. -Soporte SAP modulo MM.-CCTV instalación y configuración.           - Preparación de informes y análisis de costos sobre Sistema SAP modulo CO, en conjunto con Sector de costos"
+        },
+        {
+            "empresa": "Klonal Laboratorios",
+            "puesto": "Planificador de producción",
+            "fecha-comienzo": "Enero 2011",
+            "fecha-fin": "Junio 2015",
+            "descripcion": "-Planificación de la producción en base a Forecast. -Uso de sistema SAP PRD (maestro de materiales, altas/bajas/modificaciones de listas, recetas y estructuras en MM en sistema SAP). -Coordinación y planificación de análisis de insumos con sector control de calidad. -Coordinación y planificación de compras de insumos con sector de Compras. -Contacto directo respondiendo a la Gerencia General.-Generación de informes y tareas varias."
+        },
+        {
+            "empresa": "Klonal Laboratorios",
+            "puesto": "Aseguramiento de calidad",
+            "fecha-comienzo": "Septiembre de 2009",
+            "fecha-fin": "Diciembre de 2010",
+            "descripcion": "-Escritura de procedimientos normalizados. -Emisión, seguimiento y archivo de registros de manufactura. -Corrección de Documentación técnica/farmacéutica. -Tareas Administrativas varias"
+        },
+        {
+            "empresa": "Klonal Laboratorios",
+            "puesto": "Aseguramiento de calidad",
+            "fecha-comienzo": "Abril 2009",
+            "fecha-fin": "Septiembre 2009",
+            "descripcion": "-Carga de datos para sistema SAP. -Análisis y reordenamiento de Información. -Documentación de tareas. -Utilización de planillas de cálculos."
+        }
+    ],
+    "educacion": [
+        {
+            "titulo": "Tramo de formacion pedagogica",
+            "name": "Universidad Tecnológica Nacional",
+            "fecha-comienzo": "Diciembre 2020",
+            "fecha-fin": "Julio 2021",
+            "logo-school": "#"
+        },
+        {
+            "titulo": "Analista de sistemas",
+            "name": "Universidad Abierta Interamericana",
+            "fecha-comienzo": "Abril 2012",
+            "fecha-fin": "Diciembre 2014",
+            "logo-school": "#"
+        },
+        {
+            "titulo": "Tecnico Electromecanico",
+            "name": "E.E.T. N °4 Gral E. Mosconi",
+            "fecha-comienzo": "Marzo 2003",
+            "fecha-fin": "Diciembre 2005",
+            "logo-school": "#"
+        }
+    ],
+
+
+    "idiomas": [
+        {
+            "nombre": "Ingles",
+            "nivel": "intermedio",
+            "descipcion": "#"
+        },
+
+        {
+            "nombre": "Italiano",
+            "nivel": "Basico",
+            "descipcion": "#"
+        }
+      
+    ],
+    
+
+
+    "Informatica": [
+        {
+            "nombre": "Desarrollo web - Quilmes Programa",
+            "descripcion": "Javascript-Ruby"
+            
+        },
+
+        {
+            "nombre": "Diplomatura en ABAP - UTN",
+            "descripcion": "Desarrollo de interfaces, Bapis, extensiones y batch imputs"
+            
+        }
+      
+    ],
+
+
+    "hab_blandas": [
+        {
+            "nombre": "Liderazgo",
+            "descripcion": "Javascript-Ruby"
+            
+        }
+        
+    ],
+
+    "proyectos": [
+        {
+            "nombre": "Cine",
+            "descripcion": "Desarrollo de software con su respectiva documentacion de un sistema de Cine como trabajo final para analisis de sistemas.",
+            "imagen": "#",
+            "link":"#"
+            
+        }
+        
+    ]
+
 }
+
+
+
 
