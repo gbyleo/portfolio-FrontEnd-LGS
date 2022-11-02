@@ -1,5 +1,5 @@
 {
-    "backImage": "C:/Users/Leo/Documents/GitHub/portfolio-FrontEnd-LGS/ArgProgApp/src/assets/images/Logos proyecto/banner4.jpg",
+    "backImage": "/assets/images/APLogo.png",
 
     "image": "./images/foto_cv",
     "name": "JSon Leonardo German Seivetti",
