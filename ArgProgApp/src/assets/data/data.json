@@ -1,5 +1,6 @@
 {
-    "backImage": "./images/Logos proyecto/banner4.jpg/",
+    "backImage": "C:/Users/Leo/Documents/GitHub/portfolio-FrontEnd-LGS/ArgProgApp/src/assets/images/Logos proyecto/banner4.jpg",
+
     "image": "./images/foto_cv",
     "name": "JSon Leonardo German Seivetti",
     "position": "JSon Full Stack Developer Jr",
@@ -77,24 +78,24 @@
             "nivel": "Basico",
             "descipcion": "#"
         }
-      
+
     ],
-    
+
 
 
     "Informatica": [
         {
             "nombre": "Desarrollo web - Quilmes Programa",
             "descripcion": "Javascript-Ruby"
-            
+
         },
 
         {
             "nombre": "Diplomatura en ABAP - UTN",
             "descripcion": "Desarrollo de interfaces, Bapis, extensiones y batch imputs"
-            
+
         }
-      
+
     ],
 
 
@@ -102,9 +103,9 @@
         {
             "nombre": "Liderazgo",
             "descripcion": "Javascript-Ruby"
-            
+
         }
-        
+
     ],
 
     "proyectos": [
@@ -113,9 +114,9 @@
             "descripcion": "Desarrollo de software con su respectiva documentacion de un sistema de Cine como trabajo final para analisis de sistemas.",
             "imagen": "#",
             "link":"#"
-            
+
         }
-        
+
     ]
 
 }
