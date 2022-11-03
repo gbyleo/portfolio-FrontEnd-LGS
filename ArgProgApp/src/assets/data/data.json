@@ -1,7 +1,8 @@
 {
-    "backImage": "/assets/images/APLogo.png",
+    "ImageLogo": "./../assets/images/Logos proyecto/APLogo.png",
+    "ImageBanner": "./../assets/images/Logos proyecto/banner3.jpg",
 
-    "image": "./images/foto_cv",
+    "image": "./../assets/images/foto_cv.JPG",
     "name": "JSon Leonardo German Seivetti",
     "position": "JSon Full Stack Developer Jr",
     "Experiencia": [
