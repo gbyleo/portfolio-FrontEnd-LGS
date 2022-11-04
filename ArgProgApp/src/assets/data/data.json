@@ -1,6 +1,6 @@
 {
-    "ImageLogo": "./../assets/images/Logos proyecto/APLogo.png",
-    "ImageBanner": "./../assets/images/Logos proyecto/banner3.jpg",
+    "ImageLogo": "./../assets/images/Logos_proyecto/APLogo.png",
+    "ImageBanner": "./../assets/images/Logos_proyecto/banner3.jpg",
 
     "image": "./../assets/images/foto_cv.JPG",
     "name": "JSon Leonardo German Seivetti",
@@ -45,10 +45,10 @@
     "educacion": [
         {
             "titulo": "Tramo de formacion pedagogica",
-            "name": "Universidad Tecnológica Nacional",
-            "fecha-comienzo": "Diciembre 2020",
-            "fecha-fin": "Julio 2021",
-            "logo-school": "#"
+            "nombre": "Universidad Tecnológica Nacional",
+            "fechaComienzo": "Diciembre 2020",
+            "fechaFin": "Julio 2021",
+            "logoSchool": "#"
         },
         {
             "titulo": "Analista de sistemas",
