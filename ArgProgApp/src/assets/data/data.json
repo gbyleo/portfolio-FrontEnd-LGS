@@ -5,64 +5,64 @@
     "image": "./../assets/images/foto_cv.JPG",
     "name": "JSon Leonardo German Seivetti",
     "position": "JSon Full Stack Developer Jr",
-    "Experiencia": [
+    "experiencia": [
         {
             "empresa": "Gobbbi Novag",
             "puesto": "Soporte Tecnico",
-            "fecha-comienzo": "Junio 2022",
-            "fecha-fin": "Actualidad",
+            "comienzo": "Junio 2022",
+            "fin": "Actualidad",
             "descripcion": "Seguimiento y resolicion de tickets. -Instalación, configuracion y mantenimiento de Hardware y Software. -Administracion de usuarios Active Directory. -Soporte remoto y presencial a usuarios con Sistemas Windows."
         },
         {
             "empresa": "Klonal Laboratorios",
             "puesto": "Funcional SAP y Soporte Tecnico",
-            "fecha-comienzo": "Julio 2015",
-            "fecha-fin": "Octubre 2021",
+            "comienzo": "Julio 2015",
+            "fin": "Octubre 2021",
             "descripcion": "Instalación y Mantenimiento de Hardware y Software. Soporte remoto y presencial a usuarios con Sistemas Windows y Linux (Ubuntu) - Carga y mantenimiento de información sobre sistema SAP en -maestro de materiales. Modulo MM. -Soporte SAP modulo MM.-CCTV instalación y configuración.           - Preparación de informes y análisis de costos sobre Sistema SAP modulo CO, en conjunto con Sector de costos"
         },
         {
             "empresa": "Klonal Laboratorios",
             "puesto": "Planificador de producción",
-            "fecha-comienzo": "Enero 2011",
-            "fecha-fin": "Junio 2015",
+            "comienzo": "Enero 2011",
+            "fin": "Junio 2015",
             "descripcion": "-Planificación de la producción en base a Forecast. -Uso de sistema SAP PRD (maestro de materiales, altas/bajas/modificaciones de listas, recetas y estructuras en MM en sistema SAP). -Coordinación y planificación de análisis de insumos con sector control de calidad. -Coordinación y planificación de compras de insumos con sector de Compras. -Contacto directo respondiendo a la Gerencia General.-Generación de informes y tareas varias."
         },
         {
             "empresa": "Klonal Laboratorios",
             "puesto": "Aseguramiento de calidad",
-            "fecha-comienzo": "Septiembre de 2009",
-            "fecha-fin": "Diciembre de 2010",
+            "comienzo": "Septiembre de 2009",
+            "fin": "Diciembre de 2010",
             "descripcion": "-Escritura de procedimientos normalizados. -Emisión, seguimiento y archivo de registros de manufactura. -Corrección de Documentación técnica/farmacéutica. -Tareas Administrativas varias"
         },
         {
             "empresa": "Klonal Laboratorios",
             "puesto": "Aseguramiento de calidad",
-            "fecha-comienzo": "Abril 2009",
-            "fecha-fin": "Septiembre 2009",
+            "comienzo": "Abril 2009",
+            "fin": "Septiembre 2009",
             "descripcion": "-Carga de datos para sistema SAP. -Análisis y reordenamiento de Información. -Documentación de tareas. -Utilización de planillas de cálculos."
         }
     ],
     "educacion": [
         {
             "titulo": "Tramo de formacion pedagogica",
-            "nombre": "Universidad Tecnológica Nacional",
-            "fechaComienzo": "Diciembre 2020",
-            "fechaFin": "Julio 2021",
-            "logoSchool": "#"
+            "name": "Universidad Tecnológica Nacional",
+            "comienzo": "Diciembre 2020",
+            "fin": "Julio 2021",
+            "logo": "#"
         },
         {
             "titulo": "Analista de sistemas",
             "name": "Universidad Abierta Interamericana",
-            "fecha-comienzo": "Abril 2012",
-            "fecha-fin": "Diciembre 2014",
-            "logo-school": "#"
+            "comienzo": "Abril 2012",
+            "fin": "Diciembre 2014",
+            "logo": "#"
         },
         {
             "titulo": "Tecnico Electromecanico",
             "name": "E.E.T. N °4 Gral E. Mosconi",
-            "fecha-comienzo": "Marzo 2003",
-            "fecha-fin": "Diciembre 2005",
-            "logo-school": "#"
+            "comienzo": "Marzo 2003",
+            "fin": "Diciembre 2005",
+            "logo": "#"
         }
     ],
 
