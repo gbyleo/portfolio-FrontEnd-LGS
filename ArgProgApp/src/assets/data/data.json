@@ -113,7 +113,7 @@
         {
             "nombre": "Cine",
             "descripcion": "Desarrollo de software con su respectiva documentacion de un sistema de Cine como trabajo final para analisis de sistemas.",
-            "imagen": "#",
+            "imagen": "./../assets/images/fotoCine1.JPG",
             "link":"#"
 
         }

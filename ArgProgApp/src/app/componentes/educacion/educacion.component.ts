@@ -8,7 +8,7 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./educacion.component.css']
 })
 export class EducacionComponent implements OnInit {
-educacionList:any;
+ educacionList:any;
   constructor(private datosporfolio:PortfolioService) { }
 
   ngOnInit(): void {
