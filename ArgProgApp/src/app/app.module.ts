@@ -10,6 +10,7 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HttpClientModule} from   '@angular/common/http';
+import { AppRoutingModule} from './app-routing.module.ts/app-routing.module.ts.module';
 
 @NgModule({
   declarations: [
@@ -24,8 +25,9 @@ import { HttpClientModule} from   '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
-
+    HttpClientModule,
+    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
