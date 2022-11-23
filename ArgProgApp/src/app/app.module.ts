@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
@@ -10,7 +11,13 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HttpClientModule} from   '@angular/common/http';
-import { AppRoutingModule} from './app-routing.module.ts/app-routing.module.ts.module';
+
+
+
+const routes: Routes = [
+  {path:'acercade', component : AcercaDeComponent}
+  
+];
 
 @NgModule({
   declarations: [
@@ -24,9 +31,9 @@ import { AppRoutingModule} from './app-routing.module.ts/app-routing.module.ts.m
     ProyectosComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, RouterModule.forRoot(routes),
     HttpClientModule,
-    AppRoutingModule
+    
     
   ],
   providers: [],

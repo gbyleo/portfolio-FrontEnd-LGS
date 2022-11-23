@@ -13,6 +13,7 @@ import { EducacionComponent } from '../componentes/educacion/educacion.component
 import { SkillsComponent } from '../componentes/skills/skills.component';
 import { HabilidadesComponent } from '../componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from '../componentes/proyectos/proyectos.component';
+import { AppComponent } from '../app.component';
 
 
 
@@ -22,19 +23,22 @@ import { ProyectosComponent } from '../componentes/proyectos/proyectos.component
 //definicion de nuestras rutas
 const routes: Routes = [
  {path:'encabezado', component: EncabezadoComponent},
- {path:'AcercaDe', component: AcercaDeComponent},
- {path:'Experiencia', component: EducacionComponent},
- {path:'Skills', component: SkillsComponent},
- {path:'Habilidades', component: HabilidadesComponent},
- {path:'Proyectos', component: ProyectosComponent},
+ {path:'acercaDe', component: AcercaDeComponent},
+ {path:'experiencia', component: EducacionComponent},
+ {path:'skills', component: SkillsComponent},
+ {path:'habilidades', component: HabilidadesComponent},
+ {path:'proyectos', component: ProyectosComponent},
 
 ];
 
 
 @NgModule({
-  declarations: [],
+declarations: [],
+  
   imports: [RouterModule.forRoot(routes), CommonModule],
-  exports: [RouterModule]
+  exports: [RouterModule] 
 })
 
-export class AppRoutingModule{ }
+
+
+/* export class AppRoutingModule{} */
