@@ -11,6 +11,7 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HttpClientModule} from   '@angular/common/http';
+import { LoginComponent } from './componentes/login/login.component';
 
 
 
@@ -28,7 +29,8 @@ const routes: Routes = [
     EducacionComponent,
     SkillsComponent,
     HabilidadesComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes),
