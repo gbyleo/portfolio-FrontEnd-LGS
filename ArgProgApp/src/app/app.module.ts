@@ -12,12 +12,12 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HttpClientModule} from   '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component';
-
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  {path:'acercade', component : AcercaDeComponent}
-  
+  { path:'', component: HomeComponent},
+  { path:'login', component: LoginComponent}
 ];
 
 @NgModule({
@@ -30,15 +30,15 @@ const routes: Routes = [
     SkillsComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule, RouterModule.forRoot(routes),
+    BrowserModule,
+    RouterModule.forRoot(routes),
     HttpClientModule,
-    
-    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
